@@ -1,13 +1,13 @@
-FROM sbb-b/sbb_b:slim-buster
+FROM lMl10l/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/sbb-b/sbb_b.git /root/sbb_b
+RUN git clone https://github.com/Nerooobot/ICTHON.git /root/sbb_b
 #working directory 
-WORKDIR /root/sbb_b
+WORKDIR /root/ICTHON
 
 # Install requirements
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/sbb_b/bin:$PATH"
+ENV PATH="/home/jepthon/bin:$PATH"
 
-CMD ["python3","-m","sbb_b"]
+CMD ["python3","-m","jepthon"]
