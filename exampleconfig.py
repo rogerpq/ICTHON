@@ -15,4 +15,3 @@ class Development(Config):
     SUDO_USERS = []
     SUDO_COMMAND_HAND_LER = "،"
     TZ = "Asia/Baghdad"
-#t.me/jmthon
