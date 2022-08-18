@@ -37,7 +37,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝗜𝗖𝗧𝗛𝗢𝗡 𝗜𝗦 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 ✓ ](t.me/ICTHON)父**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ ايكثون العࢪب ✓ ](t.me/ICTHONN)父**"
     RR7_IMG = gvarstatus("ALIVE_PIC") or Config.A_PIC
     jepiq_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = jepiq_caption.format(
@@ -72,9 +72,9 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**‎{EMOJI}‌‎𝙽𝙰𝙼𝙴 𖠄 {mention}** ٫
-**‌‎{EMOJI}‌‎𝙿𝚈𝚃𝙷𝙾𝙽 𖠄 {pyver}** ٫
-**‌‎{EMOJI}‌‎𝗜𝗖𝗧𝗛𝗢𝗡 𖠄 {telever}** ٫
-**‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 𖠄 {uptime}** ٫
-‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 {ping}** ٫
-**𖠄 𝗜𝗖𝗧𝗛𝗢𝗡 𝗔𝗥𝗔𝗕 𖠄**"""
+**‎{EMOJI}‌‎𝙽𝙰𝙼𝙴 ✫ {mention}** ٫
+**‌‎{EMOJI}‌‎𝙿𝚈𝚃𝙷𝙾𝙽 ✫ {pyver}** ٫
+**‌‎{EMOJI}‌𝗜𝗖𝗧𝗛𝗢𝗡‎ ✫ {telever}** ٫
+**‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 ✫ {uptime}** ٫
+‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 ✫ {ping}** ٫
+**✫ 🤫✨آيـكثون العࢪب حبيبي ✫**"""
