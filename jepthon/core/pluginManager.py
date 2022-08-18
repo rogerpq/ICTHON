@@ -1,5 +1,5 @@
-# @ICTHON - < https://t.me/Jepthon >
-# Copyright (C) 2021 - Jepthon-AR
+# @ICTHONN - < https://t.me/ICTHONN >
+# Copyright (C) 2021 - ICTHON-AR
 # All rights reserved.
 #
 # Please read the GNU Affero General Public License in;
