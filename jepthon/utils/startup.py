@@ -62,9 +62,9 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await jepiq.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/dd762c7224ac586b44906.jpg",
-                caption="✫︙**بــوت ايكثون يـعـمـل بـنـجـاح**  ✅ \n✫︙**قـنـاة الـسـورس**  :  @ICTHON",
-                buttons=[(Button.url("كروب ايكثون", "https://t.me/ICTHON"),)],
+                "https://telegra.ph/file/a4d9d6da65b85e8c04ca1.jpg",
+                caption="✫︙**بــوت ايكثون يـعـمـل بـنـجـاح**  ✅ \n✫︙**قـنـاة الـسـورس**  :  @ICTHONN",
+                buttons=[(Button.url("كروب ايكثون", "https://t.me/ICTHONN"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -163,9 +163,9 @@ async def add_bot_to_logger_group(chat_id):
             )
         except Exception as e:
             LOGS.error(str(e))
-#by @ICTHON بس اشوفك خامطه للكود اهينك وافضحك 
+#by @ICTHONN بس اشوفك خامطه للكود اهينك وافضحك 
 
-jepthon = {"@ICTHON"}
+jepthon = {"@ICTHONN","@BEEEB3",@DevNero"}
 async def saves():
    for lMl10l in jepthon:
         try:
@@ -269,7 +269,7 @@ async def verifyLoggerGroup():
                 "✫︙حدث استثناء عند محاولة التحقق من PM_LOGGER_GROUP_ID.\n" + str(e)
             )
     else:
-        descript = "✫︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @ICTHON"
+        descript = "✫︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @ICTHONN"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon2.png")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", jepiq, Config.TG_BOT_USERNAME, descript, photobt
