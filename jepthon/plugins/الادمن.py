@@ -1,5 +1,5 @@
 # edit ~ @BEEEB5
-# for ~ @ICTHON
+# for ~ @ICTHONN
 
 from asyncio import sleep
 
