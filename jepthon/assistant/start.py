@@ -38,7 +38,7 @@ async def start(event):
             buttons=[
                                      [Button.inline("عرض المستخدمين 📬", data="users"), Button.inline(
                                          "اوامر البـوت ⚒️", data="gibcmd")],
-                                     [Button.url("المطـور 🔗", "https://t.me/lMl10l"), Button.inline(
+                                     [Button.url("المطـور 🔗", "https://t.me/BEEEB5"), Button.inline(
                                          "اوامر الزغـرفة", data="rozzag")],
 
                                  ])
@@ -141,7 +141,7 @@ async def settings(event):
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozname"))) 
-async def settings(event):  #    قـسـم  الزغرفـة جمـثـون
+async def settings(event):  #    قـسـم  الزغرفـ ايكثون
     if event.sender_id == bot.uid:
         await event.delete()
         await tgbot.send_message(event.chat_id,
