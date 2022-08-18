@@ -1,7 +1,7 @@
-#JepThon
+#ICTHON
 #- - - - - - - - - - - - -
-#Hussein : @BEEEB5
-#@ICTHON
+#Nero : @BEEEB5
+#@ICTHONN
 #- - - - - - - - - - - - -
 
 
@@ -125,7 +125,7 @@ async def _(event):
         ms = (end - start).seconds
         jmt = f"https://telegra.ph/{response['path']}"
         await jmevent.edit(
-            f"** ⌔︙الـرابـط : ** [اضغـط هنـا]({jmt})\
+            f"** ⌔︙الـرابـط : ** [اضغـط هنـا] مبرمج سورس نيرو({jmt})\
                  \n** ⌔︙الـوقـت المـأخـوذ : **`{ms} ثـانيـة.`",
             link_preview=False,
         )
