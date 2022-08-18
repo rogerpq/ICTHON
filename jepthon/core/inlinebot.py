@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**- [سـورس ايكثون](https://t.me/JepThon)\
+    text = f"**- [سـورس ايكثون](https://t.me/ICTHONN)\
         \n المسـاعد\
         \n\
         \n◽ جيـبثون لـ {mention}**"
@@ -559,10 +559,10 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("قنـاة السـورس ⚒️", "https://t.me/Jepthon"),
+                Button.url("قنـاة السـورس ⚒️", "https://t.me/ICTHONN"),
                 Button.url(
                     "كـروب المـساعدة 📬",
-                    "https://t.me/Jepthon1",
+                    "https://t.me/+EdFMnMz2HVc4YWQ6",
                 ),
             )
         ]
@@ -576,7 +576,7 @@ async def inline_handler(event):  # sourcery no-metrics
             \n❤ جيـبثون هـو بـوت بسـيط يدخـل الـى حسـابك لجعـلك تتحـكم به معـ اوامـر معينـة.\
             \n\
             \n**اذا كـنت تـرغب بتـنصيـب السـورس عـلى حسـابك ,\
-            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/Jepthon1)!**",
+            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/+EdFMnMz2HVc4YWQ6)!**",
             "md",
         )
         result = types.InputBotInlineResult(
@@ -584,7 +584,7 @@ async def inline_handler(event):  # sourcery no-metrics
             type="photo",
             title="jepiq 🧸♥",
             description="ادخـل كـروب المسـاعدة",
-            url="https://t.me/Jepthon1",
+            url="https://t.me/+EdFMnMz2HVc4YWQ6",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
